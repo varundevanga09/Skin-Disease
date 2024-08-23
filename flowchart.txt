@@ -1,0 +1,45 @@
+vNotebook
+-----------
+
+1. Importing the Packages 
+2. Data Exploration  - Skin Disease Data
+3. Image Processing 
+	- using ImageDataGenerator 
+		- Rescaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image
+	- Using Opencv + Pillow + Torchvision
+		- Reading the image
+		- resizing the image
+		- transforming to tensor using torchvision
+4. Data Extraction into training and validation
+5. Building the model 
+	- Inception ResNet V2
+	- Inception V3
+	- MobileNet
+	- MobileNet V2
+	- ZeroShot Neural Network
+	- GAN
+6. Training the model 
+
+Flask Framework
+----------------
+
+7. Flask Framework – Localhost – Signup & Sign In with sqlite3
+8. User uploads the image for analysis
+9. The Given image is processed 
+	- using keras image to array 
+	- Reshaping the Image 
+10. Trained model is used for predicting user data
+11. Predict with model for outcome
+12. Displaying the final outcome
+
+Note
+-----
+
+In the base paper, the author mentioned to use different deep learning models like meta-zero shot Neural Network, Generative Adversarial 
+Networks-GAN,InceptionV3, Inception resNetV2,MobileNet, MobileNetV2 
+So we implement the models with dataset mentioned, from that MobileNet got 80% accuracy for analysis and building the model for the
+user upload inputs.
